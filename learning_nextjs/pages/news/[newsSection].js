@@ -16,7 +16,7 @@
 
 import {useRouter} from 'next/router';
 
-function NewsSectionPage () {
+const NewsSectionPage = () => {
 
     const router = useRouter();
 

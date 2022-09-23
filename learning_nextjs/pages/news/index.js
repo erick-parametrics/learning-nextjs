@@ -1,7 +1,7 @@
 /**
  * Single Page Application (SPA)
  * Constructing a link in regular page and leverage the SPA.
- * Fragment will be used to wrap around more that one tag 
+ * Fragment will be used to wrap around more than one tag 
  * in the return statement - this is same with React.
  * The difference is <></> - this React Fragment
  * <Fragment></Fragment> - this is NextJS and this needs
@@ -12,7 +12,7 @@
 import Link from 'next/link'; // Responsible for SPA link for each
 import {Fragment} from 'react';
 
-function NewsPage () {
+const NewsPage = () => {
     return (
     <Fragment>
      <h1>The News Page</h1>
